@@ -4,7 +4,7 @@ Welcome to the Flutter challenge! Please read the following carefully. In case a
 
 ## 📝 Scenario
 
-Your goal ist to build an Android App for an Event Supervisor, that allows the supervisor to see and edit the staff members that has been assigned to him. These staff members are subject to constant change during an event. The API will inform the App via a Websocket on any changes related to the staff members. So the App must reflect those changes.
+Your goal is to build an Android App for an Event Supervisor, that allows the supervisor to see and edit the staff members that have been assigned to him. These staff members are subject to constant change during an event. The backend will inform the App via a Websocket on any changes related to the staff members. So the App must reflect those changes.
 
 The App should require the User to login via email and password. Then he will see a list of staff members currently assigned to him. The list is updated by incoming websocket data without any user interaction. The Supervisor can tap on any staff member to see more details.
 

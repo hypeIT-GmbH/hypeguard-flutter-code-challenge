@@ -84,14 +84,14 @@ Provide at least one unit test and one widget test.
 
 ## 🛠️ Extras (Optional)
 
-You are free to implement none, one or multiple extras of the following list. It's optional, so you are welcome to stick to the ones you feel familiar with:
+You are free to implement any further extras. Here are some suggestions. It's optional, so you are welcome to stick to the ones you feel familiar with. Please do not implement more than 2 of them:
 
 - Implement some basic validation with error information on the LoginPage
 - Use only Custom Widgets. In case you want to use a Design Library, wrap the design library widget in a custom widget so that one could later change the design library without having to adjust the implementations of the widgets in the app
 - Allow the supervisor to change a staff member's `role` and provide a confirmation flow. Update the list accordingly.
 - Allow the supervisor to filter the staff list by its `role`
 - Allow the Supervisor to delete a staff member from the list by swiping the list item
-- Add some transition animation
+- Add some custom transition animation
 - Use a router for the navigation
 - Add a Splash Screen
 - Add a Launcher Icon
@@ -101,3 +101,19 @@ You are free to implement none, one or multiple extras of the following list. It
 You are free to use AI Assistance for your coding. We assume that you do not implement any AI generated code that you are not able to explain.
 
 In case you do use AI Assistance, please save the chat history to a `CHAT_HISTORY.md`
+
+## 📤 Submission
+
+Please submit your solution by providing:
+
+- A GitHub repository link
+- A `README.md` with setup instructions:
+  - How to build and run the project locally
+
+## ⏱️ Scope
+
+This task is designed to take a maximum of 4 hours. Don't worry if you can't complete everything — we really do not judge you by the amount of code you produce!
+
+Please focus on writing clean, well-structured code and demonstrating your thought process.
+
+There are thousand ways to Rome and we are neither interested in Rome itself nor if you got there - we are interested in the way that you choose.

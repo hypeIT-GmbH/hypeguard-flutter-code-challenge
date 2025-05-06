@@ -55,6 +55,7 @@ In case you are having problems with this, just continue with the other requirem
 
 A Staff member has the following properties:
 
+- `id`
 - `firstName`
 - `lastName`
 - `age`

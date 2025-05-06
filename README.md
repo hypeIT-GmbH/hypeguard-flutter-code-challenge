@@ -6,7 +6,7 @@ Welcome to the Flutter challenge! Please read the following carefully. In case a
 
 Your goal is to build an Android App for an Event Supervisor, that allows the supervisor to see and edit the staff members that have been assigned to him. These staff members are subject to constant change during an event. The backend will inform the App via a Websocket on any changes related to the staff members. So the App must reflect those changes.
 
-The App should require the User to login via email and password. Then he will see a list of staff members currently assigned to him. The list is updated by incoming websocket data without any user interaction. The Supervisor can tap on any staff member to see more details.
+Th user should see a list of staff members currently assigned to him. The list is updated by incoming websocket data without any user interaction. The Supervisor can tap on any staff member to see more details.
 
 Write your code having in mind that you will hand it over to another developer who will take care of further maintainance and feature implementation.
 
@@ -26,11 +26,7 @@ Your task is to create the Android App according to the principles of Clean Code
 
 ### 🎨 UI Requirements
 
-1. Create a LoginPage with email and passwort
-
-   - Navigate to the StaffList upon successful registration
-
-2. Create a StaffListPage
+1. Create a StaffListPage
 
    - Load the initial list of staff members from the repository
    - Create a ListItem showing
@@ -39,7 +35,7 @@ Your task is to create the Android App according to the principles of Clean Code
      - it's photo
    - Create a List of ListItems and update it on incoming changes from the simulated Websocket
 
-3. Create a StaffMemberPage
+2. Create a StaffMemberPage
    - Upon tap on a ListItem navigate to a StaffMemberPage showing all details of the Staff member
    - show a placeholder instead of a photo if the staff member does not have a photo
 
@@ -86,7 +82,7 @@ Provide at least one unit test and one widget test.
 
 You are free to implement any further extras. Here are some suggestions. It's optional, so you are welcome to stick to the ones you feel familiar with. Please do not implement more than 2 of them:
 
-- Implement some basic validation with error information on the LoginPage
+- Add a LoginPage with email and passwort. Implement some basic validation with error information on the LoginPage
 - Use only Custom Widgets. In case you want to use a Design Library, wrap the design library widget in a custom widget so that one could later change the design library without having to adjust the implementations of the widgets in the app
 - Allow the supervisor to change a staff member's `role` and provide a confirmation flow. Update the list accordingly.
 - Allow the supervisor to filter the staff list by its `role`

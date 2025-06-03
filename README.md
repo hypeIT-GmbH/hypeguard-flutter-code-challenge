@@ -79,19 +79,16 @@ You are free to use any external package you think might be helpful.
 
 Provide at least one unit test and one widget test.
 
-## 🛠️ Extras (Optional)
+## 🛠️ Extras (1)
 
-You are free to implement any further extras. Here are some suggestions. It's optional, so you are welcome to stick to the ones you feel familiar with. Please do not implement more than 2 of them:
+Do you have any small idea on that we might have been missing in our requirements?
+Something useful, nice, fancy, totally useless but funny...? Cool, then show us!
 
-- Add a LoginPage with email and passwort. Implement some basic validation with error information on the LoginPage
-- Use only Custom Widgets. In case you want to use a Design Library, wrap the design library widget in a custom widget so that one could later change the design library without having to adjust the implementations of the widgets in the app
-- Allow the supervisor to change a staff member's `role` and provide a confirmation flow. Update the list accordingly.
-- Allow the supervisor to filter the staff list by its `role`
-- Allow the Supervisor to delete a staff member from the list by swiping the list item
-- Add some custom transition animation
-- Use a router for the navigation
-- Add a Splash Screen
-- Add a Launcher Icon
+**NOTE:**
+
+- DO NOT implement more than 1 Extra
+- Do something that you are very familiar with
+- Keep it simple (no more than 30 minutes on this!)
 
 ## ✨ Vibe Coding
 
@@ -103,7 +100,7 @@ In case you do use AI Assistance, please save the chat history to a `CHAT_HISTOR
 
 Please submit your solution by providing:
 
-- A GitHub repository link
+- An invitiation to your Github repository or sending us the zipped project
 - A `README.md` with setup instructions:
   - How to build and run the project locally
 

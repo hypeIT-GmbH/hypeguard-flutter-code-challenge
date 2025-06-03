@@ -79,17 +79,6 @@ You are free to use any external package you think might be helpful.
 
 Provide at least one unit test and one widget test.
 
-## 🛠️ Extras (1)
-
-Do you have any small idea on that we might have been missing in our requirements?
-Something useful, nice, fancy, totally useless but funny...? Cool, then show us!
-
-**NOTE:**
-
-- DO NOT implement more than 1 Extra
-- Do something that you are very familiar with
-- Keep it simple (no more than 30 minutes on this!)
-
 ## ✨ Vibe Coding
 
 You are free to use AI Assistance for your coding. We assume that you do not implement any AI generated code that you are not able to explain.
